@@ -1,69 +1,43 @@
-
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html><html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aroma de Pizza Lounge VIP</title>
+  <title>Aroma Lounge VIP</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Montserrat', sans-serif; margin: 0; background-color: #1a1a1a; color: #fff; }
-    header { background: #c0392b; text-align: center; padding: 2rem 1rem; }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    header p { font-size: 1.2rem; }
-
-    .hero { text-align: center; padding: 2rem 1rem; }
-    .hero h2 { font-size: 2rem; color: #f39c12; }
-    .hero p { max-width: 600px; margin: 1rem auto; }
-
-    .carousel-container { max-width: 800px; margin: 2rem auto; position: relative; }
-    .carousel-media { width: 100%; border-radius: 10px; height: 450px; object-fit: cover; }
-    .form-container { background: #fff; color: #000; padding: 2rem; max-width: 600px; margin: 2rem auto; border-radius: 10px; }
-    .form-container h3 { text-align: center; }
-    .form-container input { width: 100%; padding: 0.7rem; margin: 0.5rem 0; border-radius: 5px; border: 1px solid #ccc; }
-    .form-container button { width: 100%; padding: 0.8rem; background: #c0392b; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem; }
-    .cta { background: #e74c3c; padding: 2rem 1rem; text-align: center; }
-    .cta h2 { color: #fff; }
-    .cta a { background: #fff; color: #e74c3c; padding: 1rem 2rem; text-decoration: none; font-weight: bold; border-radius: 5px; }
-
-    footer { text-align: center; padding: 1rem; background: #111; color: #aaa; }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Aroma de Pizza Lounge VIP</h1>
-  <p>Viva uma experiência única no São Pedro de Caém</p>
-</header>
-
-<section class="hero">
-  <h2>Ambiente Exclusivo, Música, Pizzas e Open Bar!</h2>
-  <p>Reserve sua pulseira VIP e garanta acesso ao espaço mais exclusivo do São Pedro 2025 com Open Bar no Domingo e banda ao vivo. Vagas limitadas!</p>
-</section>
-
-<div class="carousel-container">
-  <video class="carousel-media" controls autoplay muted loop>
-    <source src="video1.mp4" type="video/mp4">
-  </video>
-</div>
-
-<section class="form-container">
-  <h3>Garanta sua Pulseira VIP</h3>
-  <form>
-    <input type="text" placeholder="Nome completo" required>
-    <input type="tel" placeholder="WhatsApp com DDD" required>
-    <button type="submit">Quero Entrar no Grupo VIP</button>
-  </form>
-</section>
-
-<section class="cta">
-  <h2>Garanta seu ingresso agora no Sympla!</h2>
-  <a href="#" target="_blank">Comprar no Sympla</a>
-</section>
-
-<footer>
-  &copy; 2025 Aroma de Pizza. Todos os direitos reservados.
-</footer>
-
-</body>
-</html>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #ff5500, #ffc107);
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .slider-container {
+      width: 100%;
+      max-width: 960px;
+      margin: 40px auto;
+      position: relative;
+      overflow: hidden;
+      border: 4px solid #ff5500;
+      border-radius: 12px;
+    }
+    .slider {
+      display: flex;
+      transition: transform 0.8s ease-in
